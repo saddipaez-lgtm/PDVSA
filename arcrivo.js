@@ -1,6 +1,6 @@
 const boton =document.getElementById("b");
 function redirigir(){
-    let nucleo =document.getElementById("T").value;
+    let nucleo =document.getElementById("t").value;
     if(nucleo=== "1"){
         window.location.href = "refineria.html";
     }
