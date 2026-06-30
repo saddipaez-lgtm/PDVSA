@@ -1,3 +1,4 @@
+alert("holaaaa");
 const boton =document.getElementById("b");
 function redirigir(){
     let nucleo =document.getElementById("t").value;
