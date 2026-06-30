@@ -13,5 +13,9 @@ function redirigir(){
     else if(nucleo === "4"){
         window.location.href="admin.html"
     }
+    return
 }
-boton.add
+boton.addEventListener("click", function(event){
+    event.preventDefault();
+    redirigir();
+})
