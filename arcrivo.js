@@ -2,7 +2,7 @@ const boton =document.getElementById("b");
 function redirigir(){
     let nucleo =document.getElementById("T").value;
     if(nucleo=== "1"){
-        window.location.href = "refineria.html"
+        window.location.href = "refineria.html";
     }
     else if(nucleo=== "2"){
         window.location.href="almacen.html";
@@ -14,3 +14,4 @@ function redirigir(){
         window.location.href="admin.html"
     }
 }
+boton.add
